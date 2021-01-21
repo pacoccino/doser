@@ -47,14 +47,20 @@ function Home() {
   return (
     <Container>
       <VStack spacing={6}>
-        <Heading>
+        <Text
+          bgGradient="linear(to-l, #7928CA,#FF0080)"
+          bgClip="text"
+          fontSize="6xl"
+          fontWeight="extrabold"
+          casing="uppercase"
+        >
           Doser
-        </Heading>
+        </Text>
         <Text mb="8px">Ingredient</Text>
         <Select
           value={ingredient.name}
           onChange={handleIngredientChange}
-          boxShadow="xs" rounded="md" bg="white"
+          layerStyle="neumorph"
         >
           {ingredients.map(ingredient => (
             <option
@@ -65,11 +71,11 @@ function Home() {
         </Select>
         <Text mb="8px">Masse (g)</Text>
         <NumberInput precision={2} min={0} value={masse} onChange={handleMasseChange} w="100%">
-          <NumberInputField boxShadow="xs" p="6" rounded="md" bg="white"/>
+          <NumberInputField layerStyle="neumorph"/>
         </NumberInput>
         <Text mb="8px">Volume (cl)</Text>
         <NumberInput precision={2} min={0} value={volume} onChange={handleVolumeChange} w="100%" >
-          <NumberInputField boxShadow="xs" p="6" rounded="md" bg="white"/>
+          <NumberInputField layerStyle="neumorph"/>
         </NumberInput>
       </VStack>
     </Container>
