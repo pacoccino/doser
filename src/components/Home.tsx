@@ -26,13 +26,13 @@ function Home() {
   const handleMasseChange = useCallback((value) => {
     const nValue = Number(value);
     setMasse(nValue);
-    setVolume(nValue  * ingredient.centilitreParGramme);
+    setVolume(Math.round(nValue  * ingredient.centilitreParGramme));
   }, [ingredient]);
 
   const handleVolumeChange = useCallback((value) => {
     const nValue = Number(value);
     setVolume(nValue);
-    setMasse(nValue / ingredient.centilitreParGramme);
+    setMasse(Math.round(nValue / ingredient.centilitreParGramme));
   }, [ingredient]);
 
   const handleIngredientChange = useCallback((e) => {
