@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react';
 
-import { Container, VStack, Heading, Select, NumberInput, NumberInputField, Text } from "@chakra-ui/react"
+import { Container, VStack, Select, NumberInput, NumberInputField, Text } from "@chakra-ui/react"
 
 interface Ingredient {
   name: string,
@@ -69,7 +69,7 @@ function Home() {
             >{ingredient.name}</option>
           ))}
         </Select>
-        <Text mb="8px">Masse (g)</Text>
+        <Text mb="8px">Poids (g)</Text>
         <NumberInput precision={2} min={0} value={masse} onChange={handleMasseChange} w="100%">
           <NumberInputField layerStyle="neumorph"/>
         </NumberInput>
