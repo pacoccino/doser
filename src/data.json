@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Farine (blé)",
+    "poidsVolume": 0.72
+  },
+  {
+    "name": "Farine (sarrasin)",
+    "poidsVolume": 0.42
+  },
+  {
+    "name": "Haricots rouge",
+    "tempsCuisson": 90,
+    "volumeEau": 3,
+    "remarques": "La veille, laver, tremper toute la nuit, rincer"
+  },
+  {
+    "name": "Lentilles (vertes)",
+    "tempsCuisson": 22,
+    "volumeEau": 1.5,
+    "poidsVolume": 0.86,
+    "remarques": "Rincer !"
+  },
+  {
+    "name": "Lentilles corail",
+    "tempsCuisson": 12,
+    "volumeEau": 2.5,
+    "remarques": "Rincer ! 1/2 verre par personne"
+  },
+  {
+    "name": "Quinoa",
+    "tempsCuisson": 10,
+    "volumeEau": 1.7,
+    "poidsVolume": 0.8,
+    "remarques": "Rincer !\nPeut etre cuit en risotto, ou au four"
+  },
+  {
+    "name": "Riz",
+    "tempsCuisson": 18,
+    "volumeEau": 2,
+    "poidsPersonne": 0.05,
+    "poidsVolume": 0.893,
+    "remarques": "Rincer ! Par personne 1/2 verre"
+  },
+  {
+    "name": "Semoule",
+    "volumeEau": 1,
+    "poidsPersonne": 0.08
+  },
+  {
+    "name": "Sucre",
+    "poidsVolume": 0.55
+  }
+]

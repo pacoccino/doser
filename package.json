@@ -13,10 +13,13 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.53",
     "@types/react-dom": "^16.9.8",
+    "csvjson-csv2json": "^5.0.6",
+    "decimal.js": "^10.3.1",
     "framer-motion": "^3.2.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
+    "ts-node": "^10.5.0",
     "typescript": "^4.0.3",
     "web-vitals": "^0.2.4",
     "workbox-background-sync": "^5.1.3",
@@ -36,7 +39,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "parse": "ts-node data/parser"
   },
   "eslintConfig": {
     "extends": [
