@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-import { Flex } from "@chakra-ui/react"
+import { Flex } from "@chakra-ui/react";
 
 type Props = React.ComponentProps<typeof Flex>;
 export const Layout: React.FC<Props> = ({ children, ...props }) => (
