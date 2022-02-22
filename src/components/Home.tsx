@@ -119,7 +119,7 @@ function Home() {
       setMasse(masse);
       setVolume(masse / selectedIngredient.poidsVolume);
     },
-    [masse]
+    [masse, ingredients, setSelectedIngredient]
   );
 
   const {
@@ -137,7 +137,7 @@ function Home() {
 
   useEffect(() => {
     setNbPersonnes(inputPersonValue);
-  }, [inputPersonValue]);
+  }, [inputPersonValue, setNbPersonnes]);
 
   const inc = getIncrementButtonProps();
   const dec = getDecrementButtonProps();
