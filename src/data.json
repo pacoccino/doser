@@ -44,7 +44,8 @@
   {
     "name": "Semoule",
     "volumeEau": 1,
-    "poidsPersonne": 0.08
+    "poidsPersonne": 0.08,
+    "poidsVolume": 0.820
   },
   {
     "name": "Sucre",
